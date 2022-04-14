@@ -11,4 +11,4 @@ hooks:
   ApplicationStart:
     - location: start_server
       timeout: 100
-      runas: root
+      runas: ec2-user
