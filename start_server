@@ -1,4 +1,5 @@
 #!/bin/bash
 cd /tmp/
 
-node bot.js
+sudo pm2 delete all
+sudo pm2 start bot.js
